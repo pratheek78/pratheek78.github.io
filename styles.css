@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', 'Roboto', 'Roboto Mono', monospace,  sans-serif !important;   
+    font-family: 'Poppins', sans-serif !important;   
 }
 
 .navbar {
@@ -67,7 +67,7 @@
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
-    font-family: 'Roboto Mono';
+    font-family: 'Roboto Mono', monospace;
 }
 
 .navbar__links:hover {
@@ -185,7 +185,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    font-family: 'Roboto Light'
+    font-family: 'Roboto Light', sans-serif;
     
 }
 
@@ -194,7 +194,7 @@
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
-    font-family: 'Roboto Mono Thin';
+    font-family: 'Roboto Mono Thin', sans-serif;
     color: #9B9D9F;    
 }
 
@@ -375,13 +375,13 @@
 #left p {
     font-size: 1.5rem;
     font-weight: 100;
-    font-family: 'Roboto Mono Light';
+    font-family: 'Roboto Mono Light', monospace;
 }
 
 #right p {
     font-size: 1.5rem;
     font-weight: 100;
-    font-family: 'Roboto Mono Light';
+    font-family: 'Roboto Mono Light', monospace;
     /* display: flex;
     justify-content: space-between;    */
 }
