@@ -1,6 +1,6 @@
 ---
-id: setup
-title: Setup
+id: intro
+title: Intro
 ---
 
 # Introduction

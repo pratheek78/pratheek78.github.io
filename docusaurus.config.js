@@ -51,7 +51,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'Get Started/intro',
             position: 'right',
             label: 'Docs',
           },
@@ -75,6 +75,11 @@ const config = {
         textColor: '#091E42',
         isCloseable: true,
       },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+
+      }
     }),
     
 };
