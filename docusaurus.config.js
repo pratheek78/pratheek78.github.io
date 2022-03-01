@@ -9,7 +9,7 @@ const config = {
   title: 'EzeBot',
   tagline: 'Dinosaurs are cool',
   url: 'https://github.com',
-  baseUrl: '/pratheek78.github.io/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
