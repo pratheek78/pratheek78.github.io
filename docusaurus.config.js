@@ -16,6 +16,8 @@ const config = {
   organizationName: 'pratheek78', // Usually your GitHub org/user name.
   projectName: 'pratheek78.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
+  
+
 
   presets: [
     [
@@ -45,10 +47,7 @@ const config = {
     ({
       navbar: {
         title: 'EzeBot',
-        // logo: {
-        //   alt: 'My Site Logo',
-        //   src: '/botpfp.png'
-        // },
+        
         items: [
           {
             type: 'doc',
@@ -64,45 +63,6 @@ const config = {
         ],
         hideOnScroll: true,
       },
-      // footer: {
-      //   style: 'dark',
-      //   links: [
-      //     {
-      //       title: 'Docs',
-      //       items: [
-      //         {
-      //           label: 'Docs',
-      //           to: '/docs/intro',
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: 'Resources',
-      //       items: [
-      //         {
-      //           label: 'Source Code',
-      //           href: 'https://github.com/pratheek78/Ezebot-Open-Source',
-      //         },
-      //         {
-      //           label: 'Website Source Code',
-      //           href: 'https://github.com/pratheek78/pratheek78.github.io',
-      //         },
-              
-      //       ],
-      //     },
-      //     {
-      //       title: 'More',
-      //       items: [
-              
-      //         {
-      //           label: 'Owner',
-      //           href: 'https://github.com/pratheek78',
-      //         },
-      //       ],
-      //     },
-      //   ],
-      //   copyright: `Copyright © ${new Date().getFullYear()} pratheek78`,
-      // },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
@@ -116,6 +76,7 @@ const config = {
         isCloseable: true,
       },
     }),
+    
 };
 
 module.exports = config;
